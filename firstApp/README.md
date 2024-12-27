@@ -1,4 +1,4 @@
-# Angular Homes App
+# Angular First App
 - Install Angular if you don't have it installed
 
   `npm install -g @angular/cli`
@@ -18,3 +18,10 @@
 - Run the application 
 
   `ng serve`
+
+
+- create a sandalone server
+ `npm install -g json-server`
+
+- Run the sandalone sever
+ `json-server --watch db.json`

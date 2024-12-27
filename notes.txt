@@ -45,3 +45,52 @@ To solve this problem, we can pass some id in the url and retreave some where.
 
 inject ???
 ActivatedRoute : is a reference to the created route
+
+4. Services it works with @injectable()
+- How to create a service
+- How to use dependency injection in components
+- Completed details page
+
+A service is a class that contains reusable logic, functionality, or data that can be shared
+across multiple components, directives, or other parts of the application.
+It helpp us to avoid duplicate code and share data effeciently.
+
+Instead of each component will have the data inside, here, we will use
+service to retreave the data from the data source (API, database...) and share the 
+data across the application.
+
+
+5. Forms in Angular
+- About angular forms, formGroup, and FormControl
+- Bind a formGroup to an HTML form in a template
+- Use event binding in angular (ngForm)
+In angular, we can manage forms easily and smouthfly.
+We can also manage input validation as well.
+We have to import these : FormControl, FormGroup, ReactiveFormsModule
+
+6. HTTP
+- Fetch to make HTTP request to a live endpoint using-server
+- Refactored the housing sevice to use promises and async code
+- Added filtering capabilities to our app with template variables and typeScript
+In this part, we will learn how to create a retreave data from
+by using HTTP request.
+
+I will create a sandalone server on our local machine with this command:
+npm install -g json-server
+json-server --watch db.json
+
+In this part, we getting the data from a server (API) instead of getting from an 
+array.
+
+
+async ??, Promise<> ??
+
+When we get a response from an API, we always convert y using then
+this.housingService.getHousingLocationById(housingLocationId).then((housingLocation: HousingLocation | undefined) => {
+this.housingLocation = housingLocation;
+});
+
+
+// Template variable : #filter
+
+Use make get value in  input
