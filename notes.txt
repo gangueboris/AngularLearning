@@ -1,3 +1,47 @@
 1. Introduction to Angular
 Installation requeries
 nodes.js
+
+2. Customizing components and directives
+- Build out the structure for the Housing components
+- Make the Housing component customizable
+- Dynamically display the housing location
+- Add CSS styling to the application
+
+*** @input properties ***
+Passing data in components with @input (is a decorator used to pass data from a parent component to a child component) properties
+
+[] : 
+{{}} : interpolation
+Here we transfering informations app to the housingComponent
+In this part, we will create a new type using typeScript:
+The type that we create here is an interface.
+
+Directives:
+*ngFor
+
+3. Rooter
+- Navigated in our application using the Angulat router and th routerlink directives
+- Passed information to a route using the parameter routes
+- Retrieved information from a route in a component using the ActivatedRoute feature
+
+A route is a mapping between a URL path and a specific component so that 
+when use navigate to /about (for example), the AboutComponent is display
+
+In this project, we will create a details component so that the user can navigate inside.
+To do that, we apply some configuration.
+In src/main.ts, import the provideRouter and then add this 
+{
+  providers: [
+    provideRouter([])
+  ]
+
+} in the bootstrapApplication as a second parameter.
+
+
+When I click on the housing's Learn more, how do we which information to display ?
+To solve this problem, we can pass some id in the url and retreave some where.
+
+
+inject ???
+ActivatedRoute : is a reference to the created route

@@ -9,4 +9,3 @@ node js
 - Create an app : `ng new app-name` or `ng new app-name --inline-style --inline-template` (add optionals configurations)
 
 - Run the application : `ng serve`
-
