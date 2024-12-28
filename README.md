@@ -4,11 +4,11 @@ This repository contains my first app project create when I started Angular lear
 ## 🤖 Introduction
 To learn Angular, what better way to start than with a small project? 😊
 The project is about creating a web application for managing and displaying housing listings.
+
+
 ![image](https://github.com/user-attachments/assets/2a03c94f-743a-43e8-a636-0fa7dfb590df)
 ![image](https://github.com/user-attachments/assets/4070481c-4f5b-454f-9b95-80ae0bad6384)
 ![image](https://github.com/user-attachments/assets/88814c5c-8a6b-4bee-84ec-e0d800759091)
-
-
 
 
 ## 🔋Application Features
@@ -31,7 +31,7 @@ By building the Home Housing Application, I learn how to:
 - Routing for navigation
 - Forms for user input
 
-## ⚙️ Installations:
+##⚙️ Installations:
 
 node js
 
