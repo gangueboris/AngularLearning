@@ -25,13 +25,13 @@ By building the Home Housing Application, I learn how to:
 - Style and presente data dynamically
 - Handle user input with Angular forms
 
-##🔋Angular features used:
+##🔋Angular features used
 - Components, Templates, and Directives
 - Dependency Injection and Services
 - Routing for navigation
 - Forms for user input
 
-##⚙️ Installations:
+##⚙️ Installations
 
 node js
 
